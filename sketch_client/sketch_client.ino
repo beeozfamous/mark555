@@ -7,8 +7,8 @@
 
 #define FIREBASE_HOST "mark-555.firebaseio.com"
 #define FIREBASE_AUTH "HHqscC3tm4NwQWxYpX8pjadJbBGMbfZ64RrHFMZW"
-#define WIFI_SSID "Midori Cafe"
-#define WIFI_PASSWORD "midoricafe"
+#define WIFI_SSID "HATTO"
+#define WIFI_PASSWORD "anphaingon"
 
 
 // Structure example to receive data
