@@ -1,0 +1,5 @@
+Mapping Mark555
+ID:3 -Gray - Left Foot
+ID:2 -Green - Right Foot
+ID:1-Yellow - Left Hand
+ID:4 -Red - Right Foot
