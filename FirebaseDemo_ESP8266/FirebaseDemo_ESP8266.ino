@@ -155,39 +155,39 @@ void OnDataRecv(uint8_t * mac_addr, uint8_t *incomingData, uint8_t len) {
 }
 
 void loop() {
-//  //Serial.print(millis()/1000);
-//  for(int count = 0 ; count<slave_num;count++){
-////    Serial.print(",");
-////    Serial.print("ID"+count);
-//    if(boardsStruct[count].AcX!=0){
-//      Firebase.setFloat(String("landmark"+String(count)+"/AcX"),boardsStruct[count].AcX);
-////      Serial.print(",");
-////      Serial.print(boardsStruct[count].AcX);
-//    }
-//    if(boardsStruct[count].AcY!=0){
-//      Firebase.setFloat(String("landmark"+String(count)+"/AcY"),boardsStruct[count].AcY);
-////      Serial.print(",");
-////      Serial.print(boardsStruct[count].AcY);
-//    }
-//    if(boardsStruct[count].AcZ!=0){
-//      Firebase.setFloat(String("landmark"+String(count)+"/AcZ"),boardsStruct[count].AcZ);
-////      Serial.print(",");
-////      Serial.print(boardsStruct[count].AcZ);
-//    }
-//    if(boardsStruct[count].GyX!=0){
-//      Firebase.setFloat(String("landmark"+String(count)+"/GyX"),boardsStruct[count].GyX);
-////      Serial.print(",");
-////      Serial.print(boardsStruct[count].GyX);
-//    }
-//    if(boardsStruct[count].GyY!=0){
-//      Firebase.setFloat(String("landmark"+String(count)+"/GyY"),boardsStruct[count].GyY);
-////      Serial.print(",");
-////      Serial.print(boardsStruct[count].GyY);
-//    }
-//    if(boardsStruct[count].GyZ!=0){
-//      Firebase.setFloat(String("landmark"+String(count)+"/GyZ"),boardsStruct[count].GyZ);
-////      Serial.print(",");
-////      Serial.print(boardsStruct[count].GyZ);
-//    }
-//  }
+  //Serial.print(millis()/1000);
+  for(int count = 0 ; count<slave_num;count++){
+//    Serial.print(",");
+//    Serial.print("ID"+count);
+    if(boardsStruct[count].AcX!=0){
+      Firebase.setFloat(String("landmark"+String(count)+"/AcX"),boardsStruct[count].AcX);
+//      Serial.print(",");
+//      Serial.print(boardsStruct[count].AcX);
+    }
+    if(boardsStruct[count].AcY!=0){
+      Firebase.setFloat(String("landmark"+String(count)+"/AcY"),boardsStruct[count].AcY);
+//      Serial.print(",");
+//      Serial.print(boardsStruct[count].AcY);
+    }
+    if(boardsStruct[count].AcZ!=0){
+      Firebase.setFloat(String("landmark"+String(count)+"/AcZ"),boardsStruct[count].AcZ);
+//      Serial.print(",");
+//      Serial.print(boardsStruct[count].AcZ);
+    }
+    if(boardsStruct[count].GyX!=0){
+      Firebase.setFloat(String("landmark"+String(count)+"/GyX"),boardsStruct[count].GyX);
+//      Serial.print(",");
+//      Serial.print(boardsStruct[count].GyX);
+    }
+    if(boardsStruct[count].GyY!=0){
+      Firebase.setFloat(String("landmark"+String(count)+"/GyY"),boardsStruct[count].GyY);
+//      Serial.print(",");
+//      Serial.print(boardsStruct[count].GyY);
+    }
+    if(boardsStruct[count].GyZ!=0){
+      Firebase.setFloat(String("landmark"+String(count)+"/GyZ"),boardsStruct[count].GyZ);
+//      Serial.print(",");
+//      Serial.print(boardsStruct[count].GyZ);
+    }
+  }
 }

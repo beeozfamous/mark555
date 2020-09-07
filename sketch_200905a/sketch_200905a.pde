@@ -59,7 +59,7 @@ void serialEvent(Serial myPort){
       
       readingCounter++; //optional, use if you'd like to write your file every numReadings reading cycles
            
-      saveTable(dataTable, "WalkAround.csv"); 
+      saveTable(dataTable, "TestHipHop.csv"); 
     
    }
  }
